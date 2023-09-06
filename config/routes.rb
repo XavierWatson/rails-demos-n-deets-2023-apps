@@ -5,6 +5,5 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   get 'home', to: 'pages#home', as: 'home'
-  get 'about', to: 'pages#about', as: 'about'
   
 end
